@@ -1,0 +1,16 @@
+{
+	"name": "navitronic/adrianpalmer.me",
+	"description": "",
+	"minimum-stability": "dev",
+	"license": "proprietary",
+	"authors": [
+		{
+			"name": "Adrian Palmer",
+			"email": "navitronic@gmail.com"
+		}
+	],
+	"require": {
+		"silex/silex": "~1.0",
+		"symfony/twig-bridge": "~2.4"
+	}
+}
