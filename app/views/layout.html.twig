@@ -1,0 +1,22 @@
+{% spaceless %}
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1, minimal-ui">
+	<title>{% block title %}Welcome!{% endblock %}</title>
+{% block stylesheets %}
+	<link rel="stylesheet" href="css/normalize.css"/>
+	<link href='http://fonts.googleapis.com/css?family=Gentium+Book+Basic|Open+Sans:400,700,800&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="css/main.css"/>
+{% endblock %}
+</head>
+<body>
+	<header>{% block header %}{% endblock %}</header>
+	<main>
+		{% block body %}{% endblock %}
+	</main>
+{% block javascripts %}{% endblock %}
+</body>
+</html>
+{% endspaceless %}

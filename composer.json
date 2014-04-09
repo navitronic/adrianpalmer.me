@@ -11,6 +11,9 @@
 	],
 	"require": {
 		"silex/silex": "~1.0",
-		"symfony/twig-bridge": "~2.4"
+		"symfony/twig-bridge": "~2.4",
+		"filp/whoops": "1",
+		"aptoma/twig-markdown": "~0.2",
+		"michelf/php-markdown": "~1.4"
 	}
 }

@@ -1,7 +1,13 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: adrianpalmer
- * Date: 9/04/2014
- * Time: 9:54 AM
- */ 
+use Aptoma\Twig\Extension\MarkdownExtension;
+use Aptoma\Twig\Extension\MarkdownEngine;
+
+$app->register(
+	new Silex\Provider\TwigServiceProvider(), array(
+		'twig.path' => __DIR__ . '/views',
+	)
+);
+
+$engine = new MarkdownEngine\MichelfMarkdownEngine();
+
+$app['twig']->addExtension(new MarkdownExtension($engine));
