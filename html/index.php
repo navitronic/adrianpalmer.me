@@ -15,6 +15,7 @@ $app->get('/', function() use ($app) {
 	return $app['twig']->render(
 		'default.html.twig', [
 			'title' => 'Adrian Palmer, Melbourne Web Developer',
+			'content' => file_get_contents('index.md')
 		]
 	);
 });
