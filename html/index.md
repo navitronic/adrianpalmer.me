@@ -23,7 +23,7 @@ You can reach me via email [here](mailto:hey@adrianpalmer.me)
 Below are some of my favourite places around the web where I maintain a presence.
 
 - [navitronic](http://navitronic.co){.blog .test}<br/>My infrequently updated blog.
-- [github](http://github.com/navitronic)<br/>Some of my code lives here. More should.
+- [github](http://github.com/navitronic) /[gists](http://gist.github.com/navitronic)<br/>Some of my code lives here. More should.
 - [twitter](http://twitter.com/navitronic)<br/>Moaning.
 - [instagram](http://instagram.com/navitronic)<br/>A collection of phone snaps from the past few years.
 - [flickr](http://flickr.com/photos/navitronic)<br/>A more diverse collection of photos I have taken since 2005ish, on something of a hiatus.
